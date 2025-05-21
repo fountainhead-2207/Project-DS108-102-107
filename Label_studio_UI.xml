@@ -1,0 +1,47 @@
+<View style="display: flex; flex-direction: row; max-height: 100vh; overflow: hidden;">
+  <!-- Phần text và ảnh (bên trái) -->
+  <View style="flex: 1; margin-right: 10px; max-height: 90vh; overflow-y: auto;">
+    <!-- Phần text -->
+    <View style="margin-bottom: 10px;">
+      <Header value="Customer Comment Review" style="font-size: 14px;"/>
+      <Header value="Rating" style="font-size: 12px;"/>
+      <Text name="rating" value="$rating" style="font-size: 12px;"/>
+      <Header value="Comment" style="font-size: 12px;"/>
+      <Text name="comment" value="$comment" style="font-size: 12px; overflow-wrap: break-word; max-width: 100%;"/>
+      <Header value="Product Name" style="font-size: 12px;"/>
+      <Text name="product_name" value="$product_name" style="font-size: 12px;"/>
+    </View>
+
+
+    <!-- Hiển thị danh sách hình ảnh -->
+	  <Image name="image" value="$images" maxWidth="400px" />
+  </View>
+
+  <!-- Phần annotation (bên phải, thu nhỏ) -->
+  <View style="flex: 0 0 200px; margin-left: 10px; max-height: 90vh; overflow-y: auto;">
+    <Header value="Chỉ số Key-aspects (Các khía cạnh chính của sản phẩm):" style="font-size: 12px;"/>
+    <Choices name="key_aspects" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+    <Header value="Chỉ số Decision-making advice (Đưa ra lời khuyên quyết định mua hàng):" style="font-size: 12px;"/>
+    <Choices name="decision_making" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+    <Header value="Chỉ số Image-helpfulness (Mức độ hữu ích của hình ảnh đối với người dùng):" style="font-size: 12px;"/>
+    <Choices name="image_helpfulness" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+</View>
