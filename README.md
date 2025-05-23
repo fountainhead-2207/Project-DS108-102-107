@@ -1,4 +1,3 @@
-Để cung cấp một **sơ đồ tổng quát** của quy trình phát triển và triển khai mô hình học máy (bao gồm các bước từ crawl dữ liệu đến deploy mô hình), tôi sẽ mô tả một quy trình theo dạng **biểu đồ luồng (flowchart)**. Vì không thể vẽ trực tiếp sơ đồ ở đây, tôi sẽ mô tả chi tiết các bước theo thứ tự và mối liên hệ giữa chúng, đồng thời cung cấp một biểu đồ dạng văn bản (text-based diagram) để bạn dễ hình dung. Nếu bạn muốn, tôi có thể tạo một biểu đồ trực quan bằng JSON Chart.js nếu bạn xác nhận yêu cầu tạo biểu đồ.
 
 ### Sơ đồ tổng quát quy trình phát triển và triển khai mô hình học máy
 
