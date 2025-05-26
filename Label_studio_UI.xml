@@ -19,7 +19,7 @@
 
   <!-- Phần annotation (bên phải, thu nhỏ) -->
   <View style="flex: 0 0 200px; margin-left: 10px; max-height: 90vh; overflow-y: auto;">
-    <Header value="Chỉ số Key-aspects (Các khía cạnh chính của sản phẩm):" style="font-size: 12px;"/>
+    <Header value="Chỉ số tham khảo của comment" style="font-size: 12px;"/>
     <Choices name="key_aspects" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
@@ -27,7 +27,7 @@
       <Choice value="4"/>
       <Choice value="5"/>
     </Choices>
-    <Header value="Chỉ số Decision-making advice (Đưa ra lời khuyên quyết định mua hàng):" style="font-size: 12px;"/>
+    <Header value="Chỉ số tham khảo của ảnh" style="font-size: 12px;"/>
     <Choices name="decision_making" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
@@ -35,7 +35,7 @@
       <Choice value="4"/>
       <Choice value="5"/>
     </Choices>
-    <Header value="Chỉ số Image-helpfulness (Mức độ hữu ích của hình ảnh đối với người dùng):" style="font-size: 12px;"/>
+    <Header value="Chỉ số tham khảo giữa tương quang ảnh - comment" style="font-size: 12px;"/>
     <Choices name="image_helpfulness" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
