@@ -1,6 +1,8 @@
 <View style="display: flex; flex-direction: row; max-height: 100vh; overflow: hidden;">
   <!-- Phần text và ảnh (bên trái) -->
-  <View style="flex: 1; margin-right: 10px; max-height: 90vh; overflow-y: auto;">
+     <View style="box-shadow: 2px 5px #999;
+               padding: 40px; margin-top: 2em;
+               border-radius: 5px;">
     <!-- Phần text -->
     <View style="margin-bottom: 10px;">
       <Header value="Customer Comment Review" style="font-size: 14px;"/>
@@ -18,9 +20,11 @@
   </View>
 
   <!-- Phần annotation (bên phải, thu nhỏ) -->
-  <View style="flex: 0 0 200px; margin-left: 10px; max-height: 90vh; overflow-y: auto;">
+    <View style="box-shadow: 2px 2px 5px #999;
+               padding: 20px; margin-top: 2em;
+               border-radius: 5px;">
     <Header value="Chỉ số tham khảo của comment" style="font-size: 12px;"/>
-    <Choices name="key_aspects" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+    <Choices name="Comment_helpfulness" toName="comment" choice="single" showInline="true" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center ;">
       <Choice value="1"/>
       <Choice value="2"/>
       <Choice value="3"/>
@@ -28,20 +32,18 @@
       <Choice value="5"/>
     </Choices>
     <Header value="Chỉ số tham khảo của ảnh" style="font-size: 12px;"/>
-    <Choices name="decision_making" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+    <Choices name="Image_helpfulness" toName="image" choice="single" showInline="true" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
       <Choice value="3"/>
       <Choice value="4"/>
       <Choice value="5"/>
     </Choices>
-    <Header value="Chỉ số tham khảo giữa tương quang ảnh - comment" style="font-size: 12px;"/>
-    <Choices name="image_helpfulness" toName="image" choice="single" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
+    <Header value="Chỉ số tham khảo giữa tương quang ảnh - comment - tên SP" style="font-size: 12px;"/>
+    <Choices name="All_helpfulness" toName="image" choice="single" showInline="true" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
       <Choice value="3"/>
-      <Choice value="4"/>
-      <Choice value="5"/>
     </Choices>
   </View>
 </View>
