@@ -6,8 +6,6 @@
     <!-- Phần text -->
     <View style="margin-bottom: 10px;">
       <Header value="Customer Comment Review" style="font-size: 14px;"/>
-      <Header value="Rating" style="font-size: 12px;"/>
-      <Text name="rating" value="$rating" style="font-size: 12px;"/>
       <Header value="Comment" style="font-size: 12px;"/>
       <Text name="comment" value="$comment" style="font-size: 12px; overflow-wrap: break-word; max-width: 100%;"/>
       <Header value="Product Name" style="font-size: 12px;"/>
