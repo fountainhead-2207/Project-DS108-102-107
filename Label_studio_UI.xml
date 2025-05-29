@@ -39,13 +39,11 @@
       <Choice value="4"/>
       <Choice value="5"/>
     </Choices>
-    <Header value="Chỉ số tham khảo giữa tương quang ảnh - comment - rating" style="font-size: 12px;"/>
+    <Header value="Chỉ số tham khảo giữa tương quang ảnh - comment - tên SP" style="font-size: 12px;"/>
     <Choices name="All_helpfulness" toName="image" choice="single" showInline="true" style="display: flex; flex-direction: row; gap: 5px; font-size: 12px; justify-content: center;">
       <Choice value="1"/>
       <Choice value="2"/>
       <Choice value="3"/>
-      <Choice value="4"/>
-      <Choice value="5"/>
     </Choices>
   </View>
 </View>
