@@ -14,7 +14,7 @@
 
 
     <!-- Hiển thị danh sách hình ảnh -->
-	  <Image name="image" value="$images" maxWidth="400px" />
+	  <Image name="image" value="$images" maxWidth="200px" />
   </View>
 
   <!-- Phần annotation (bên phải, thu nhỏ) -->
