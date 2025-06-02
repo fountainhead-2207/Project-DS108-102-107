@@ -14,7 +14,7 @@
   </View>
 
   <!-- Phần annotation (bên phải, không thu nhỏ) -->
-  <View style="box-shadow: 2px 2px 5px #999; padding: 20px; margin-top: 2em; border-radius: 5px; width: 300px; flex-shrink: 0;">
+  <View style="box-shadow: 2px 2px 5px #999; padding: 20px; margin-top: 2em; border-radius: 5px; width: 350px; flex-shrink: 0;">
     <Header value="Chỉ số tham khảo của comment" style="font-size: 12px;"/>
     <Choices name="Comment_helpfulness" toName="comment" choice="single" showInline="true" style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 5px; font-size: 12px; justify-content: center; overflow-x: auto;">
       <Choice value="1"/>
