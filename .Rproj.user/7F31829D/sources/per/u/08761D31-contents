@@ -1,3 +1,0 @@
-library(jsonlite)
-
-data<-fromJSON("manual.json")
