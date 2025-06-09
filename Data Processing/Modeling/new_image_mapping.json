@@ -10351,6 +10351,18 @@
     },
     {
         "task_id": 13678,
+        "original_url": "https://salt.tikicdn.com/ts/review/cc/e0/d2/9ef1c7e782e09a17fd4d682c6fad5a4a.jpg",
+        "local_path": "local_images/13678_0.jpg",
+        "processed_path": "processed_images\\13678_13678_0.jpeg"
+    },
+    {
+        "task_id": 13678,
+        "original_url": "https://salt.tikicdn.com/ts/review/c1/ec/19/6f0ebac740a2bc62de6fe77d3d40c1c0.jpg",
+        "local_path": "local_images/13678_1.jpg",
+        "processed_path": "processed_images\\13678_13678_1.jpeg"
+    },
+    {
+        "task_id": 13678,
         "original_url": "https://salt.tikicdn.com/ts/review/2d/4b/9a/a8008e6b9667d21b1a31c164ab42930b.jpg",
         "local_path": "local_images/13678_2.jpg",
         "processed_path": "processed_images\\13678_13678_2.jpeg"
@@ -10768,6 +10780,12 @@
         "original_url": "https://salt.tikicdn.com/ts/review/fe/26/91/6a1b684c483550077dc9f427bef466d8.jpg",
         "local_path": "local_images/13767_1.jpg",
         "processed_path": "processed_images\\13767_13767_1.jpeg"
+    },
+    {
+        "task_id": 13767,
+        "original_url": "https://salt.tikicdn.com/ts/review/ed/d4/7b/3cd7e59ac0979c9f494a7336a7b84ddd.jpg",
+        "local_path": "local_images/13767_2.jpg",
+        "processed_path": "processed_images\\13767_13767_2.jpeg"
     },
     {
         "task_id": 13768,
