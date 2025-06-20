@@ -1,0 +1,5 @@
+- book: 0
+- health&beauty: 1
+- sport: 2
+- food&drink: 3
+- stationery: 4
