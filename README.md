@@ -1,95 +1,95 @@
-Project-DS108-102-107/
-├── .gitignore
-├── Data Processing/  
-│   ├── Data/
-│   │   ├── Bronze Data/
-│   │   │   ├── Bronze_EDA.ipynb
-│   │   │   ├── Crawl_Tiki.ipynb
-│   │   │   └── Raw_reviews/
-│   │   │       ├── tiki_reviews_book.csv
-│   │   │       ├── tiki_reviews_food&drink.csv
-│   │   │       ├── tiki_reviews_health&beauty.csv
-│   │   │       ├── tiki_reviews_sport.csv
-│   │   │       └── tiki_reviews_stationery.csv
-│   │   ├── Gold Data/
-│   │   │   ├── all_labeled.json
-│   │   │   ├── EDA.ipynb
-│   │   │   ├── split_train_test.ipynb
-│   │   │   ├── test.json
-│   │   │   └── train.json
-│   │   └── Silver Data/
-│   │       ├── all_reviews_with_category.json
-│   │       ├── Clean_Data.ipynb
-│   │       ├── Clean_reviews/
-│   │       │   ├── tiki_reviews_book_cleaned.json
-│   │       │   ├── tiki_reviews_food&drink_cleaned.json
-│   │       │   ├── tiki_reviews_health&beauty_cleaned.json
-│   │       │   ├── tiki_reviews_sport_cleaned.json
-│   │       │   └── tiki_reviews_stationery_cleaned.json
-│   │       ├── Guideline_sample/
-│   │       │   ├── GL_v1/
-│   │       │   │   ├── guideline_sample_1.json
-│   │       │   │   └── Labeled_GL_sample_1/
-│   │       │   │       ├── cuong.json
-│   │       │   │       ├── duyet.json
-│   │       │   │       └── vuong.json
-│   │       │   ├── GL_v2/
-│   │       │   │   ├── guideline_sample_2.json
-│   │       │   │   └── Labeled_GL_sample_2/
-│   │       │   │       ├── Cuong.json
-│   │       │   │       ├── Duyet.json
-│   │       │   │       └── Vuong.json
-│   │       │   ├── GL_v3/
-│   │       │   │   ├── guideline_sample_3.json
-│   │       │   │   └── Labeled_GL_sample_3/
-│   │       │   │       ├── Cuong.json
-│   │       │   │       ├── duyet.json
-│   │       │   │       └── Vuong.json
-│   │       │   ├── Guideline.docx
-│   │       │   └── IAAA&EDA.ipynb
-│   │       ├── Manual_label_data/
-│   │       │   ├── Finish/
-│   │       │   │   ├── Cuong_labeled.json
-│   │       │   │   ├── Duyet_labeled.json
-│   │       │   │   └── Vuong_labeled.json
-│   │       │   ├── merge.ipynb
-│   │       │   ├── Raw/
-│   │       │   │   ├── Cuong.json
-│   │       │   │   ├── Duyet.json
-│   │       │   │   ├── manual.json
-│   │       │   │   └── Vuong.json
-│   │       │   └── split.ipynb
-│   │       ├── merge+split.ipynb
-│   │       └── unsupervised.json
-│   └── Modeling/
-│       ├── v1/
-│       │   ├── all_labeled.json
-│       │   ├── image_mapping.json
-│       │   ├── image_proccessing.ipynb
-│       │   ├── new_image_mapping.json
-│       │   └── restnet+BERT.ipynb
-│       └── v2/
-│           ├── all_labeled.json
-│           ├── best_helpfulness_model.pth
-│           ├── category_mapping.md
-│           ├── image_mapping.json
-│           ├── image_model_final.ipynb.ipynb
-│           ├── image_model_v2.ipynb
-│           ├── image_preproccesing.ipynb
-│           ├── images.json
-│           └── processed_image_mapping.json
-├── ĐN.md
-├── KS.md
-├── Label_studio_UI.xml
-├── Paper/
-│   ├── Figures/
-│   │   ├── Phan5_bang1.png
-│   │   └── Phan5_hinh3.png
-│   ├── paper.tex
-│   └── Sections/
-│       ├── 0.Abstract.md
-│       ├── 1-3.intro_foudation_dataset.md
-│       ├── 4.model_cmt.md
-│       ├── 5.Experiment_cmt.md
-│       └── 6.Conclu&FuWo.md
-└── README.md
+- Project-DS108-102-107/
+  - .gitignore
+  - Data Processing/
+    - Data/
+      - Bronze Data/
+        - Bronze_EDA.ipynb
+        - Crawl_Tiki.ipynb
+        - Raw_reviews/
+          - tiki_reviews_book.csv
+          - tiki_reviews_food&drink.csv
+          - tiki_reviews_health&beauty.csv
+          - tiki_reviews_sport.csv
+          - tiki_reviews_stationery.csv
+      - Gold Data/
+        - all_labeled.json
+        - EDA.ipynb
+        - split_train_test.ipynb
+        - test.json
+        - train.json
+      - Silver Data/
+        - all_reviews_with_category.json
+        - Clean_Data.ipynb
+        - Clean_reviews/
+          - tiki_reviews_book_cleaned.json
+          - tiki_reviews_food&drink_cleaned.json
+          - tiki_reviews_health&beauty_cleaned.json
+          - tiki_reviews_sport_cleaned.json
+          - tiki_reviews_stationery_cleaned.json
+        - Guideline_sample/
+          - GL_v1/
+            - guideline_sample_1.json
+            - Labeled_GL_sample_1/
+              - cuong.json
+              - duyet.json
+              - vuong.json
+          - GL_v2/
+            - guideline_sample_2.json
+            - Labeled_GL_sample_2/
+              - Cuong.json
+              - Duyet.json
+              - Vuong.json
+          - GL_v3/
+            - guideline_sample_3.json
+            - Labeled_GL_sample_3/
+              - Cuong.json
+              - duyet.json
+              - Vuong.json
+          - Guideline.docx
+          - IAAA&EDA.ipynb
+        - Manual_label_data/
+          - Finish/
+            - Cuong_labeled.json
+            - Duyet_labeled.json
+            - Vuong_labeled.json
+          - merge.ipynb
+          - Raw/
+            - Cuong.json
+            - Duyet.json
+            - manual.json
+            - Vuong.json
+          - split.ipynb
+        - merge+split.ipynb
+        - unsupervised.json
+    - Modeling/
+      - v1/
+        - all_labeled.json
+        - image_mapping.json
+        - image_proccessing.ipynb
+        - new_image_mapping.json
+        - restnet+BERT.ipynb
+      - v2/
+        - all_labeled.json
+        - best_helpfulness_model.pth
+        - category_mapping.md
+        - image_mapping.json
+        - image_model_final.ipynb.ipynb
+        - image_model_v2.ipynb
+        - image_preproccesing.ipynb
+        - images.json
+        - processed_image_mapping.json
+  - ĐN.md
+  - KS.md
+  - Label_studio_UI.xml
+  - Paper/
+    - Figures/
+      - Phan5_bang1.png
+      - Phan5_hinh3.png
+    - paper.tex
+    - Sections/
+      - 0.Abstract.md
+      - 1-3.intro_foudation_dataset.md
+      - 4.model_cmt.md
+      - 5.Experiment_cmt.md
+      - 6.Conclu&FuWo.md
+  - README.md
